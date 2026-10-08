@@ -9,8 +9,8 @@ The catalog goes in four tiers. Each tier keeps the threats of the one before it
 | Tier | What changes | Systems |
 |---|---|---|
 | **Traditional** | Web, mobile, API, identity and microservices: the baseline | [SaaS Login with OAuth 2.0 / OIDC](systems/traditional/saas-oidc-login/) · [E-commerce Checkout with Tokenized Payments](systems/traditional/ecommerce-checkout/) · [Mobile Banking Backend](systems/traditional/mobile-banking-backend/) · [Microservices Order Platform](systems/traditional/microservices-order-platform/) |
-| **Cloud-native** | Identity and configuration become the perimeter | [Serverless File Upload Pipeline (AWS)](systems/cloud/serverless-file-upload/) · [Multi-Tenant SaaS on Amazon EKS](systems/cloud/multi-tenant-eks-saas/) |
-| **AI-enabled** | Untrusted text becomes an instruction channel; models become artifacts | [RAG Customer Support Chatbot](systems/ai/rag-support-chatbot/) · [Real-Time ML Fraud Scoring](systems/ai/ml-fraud-scoring/) |
+| **Cloud-native** | Identity and configuration become the perimeter | [Serverless File Upload Pipeline (AWS)](systems/cloud/serverless-file-upload/) · [Multi-Tenant SaaS on Amazon EKS](systems/cloud/multi-tenant-eks-saas/) · [IoT Device Fleet on Azure](systems/cloud/azure-iot-fleet/) · [Analytics Lakehouse on Google Cloud](systems/cloud/gcp-data-lakehouse/) |
+| **AI-enabled** | Untrusted text becomes an instruction channel; models become artifacts | [RAG Customer Support Chatbot](systems/ai/rag-support-chatbot/) · [Real-Time ML Fraud Scoring](systems/ai/ml-fraud-scoring/) · [Enterprise LLM Gateway](systems/ai/enterprise-llm-gateway/) · [Invoice Document AI](systems/ai/invoice-document-ai/) |
 | **Agentic** | Prompt injection becomes privileged action | [Autonomous SRE Incident Agent](systems/agentic/sre-incident-agent/) · [Multi-Agent Customer Operations](systems/agentic/multi-agent-customer-ops/) |
 
 | System | Findings | Open | Highest open severity |
@@ -21,8 +21,12 @@ The catalog goes in four tiers. Each tier keeps the threats of the one before it
 | [Microservices Order Platform](systems/traditional/microservices-order-platform/) | 21 | 17 | Very High |
 | [Serverless File Upload Pipeline (AWS)](systems/cloud/serverless-file-upload/) | 21 | 11 | Very High |
 | [Multi-Tenant SaaS on Amazon EKS](systems/cloud/multi-tenant-eks-saas/) | 22 | 6 | Very High |
+| [IoT Device Fleet on Azure](systems/cloud/azure-iot-fleet/) | 18 | 5 | Very High |
+| [Analytics Lakehouse on Google Cloud](systems/cloud/gcp-data-lakehouse/) | 14 | 9 | Very High |
 | [RAG Customer Support Chatbot](systems/ai/rag-support-chatbot/) | 21 | 4 | Very High |
 | [Real-Time ML Fraud Scoring](systems/ai/ml-fraud-scoring/) | 9 | 7 | Very High |
+| [Enterprise LLM Gateway](systems/ai/enterprise-llm-gateway/) | 17 | 6 | Very High |
+| [Invoice Document AI](systems/ai/invoice-document-ai/) | 13 | 3 | Very High |
 | [Autonomous SRE Incident Agent](systems/agentic/sre-incident-agent/) | 25 | 15 | Very High |
 | [Multi-Agent Customer Operations](systems/agentic/multi-agent-customer-ops/) | 23 | 13 | Very High |
 

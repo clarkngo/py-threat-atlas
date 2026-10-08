@@ -39,8 +39,8 @@ TIERS = [
 # Reading order within each tier (simpler systems first); unlisted systems sort alphabetically after these.
 ORDER = [
     "saas-oidc-login", "ecommerce-checkout", "mobile-banking-backend", "microservices-order-platform",
-    "serverless-file-upload", "multi-tenant-eks-saas",
-    "rag-support-chatbot", "ml-fraud-scoring",
+    "serverless-file-upload", "multi-tenant-eks-saas", "azure-iot-fleet", "gcp-data-lakehouse",
+    "rag-support-chatbot", "ml-fraud-scoring", "enterprise-llm-gateway", "invoice-document-ai",
     "sre-incident-agent", "multi-agent-customer-ops",
 ]
 STRIDE = [
@@ -136,11 +136,13 @@ def run_model(system, threatlib):
     # pytm's default top-to-bottom layout spreads boundaries horizontally and becomes
     # unreadable when scaled to page width; a left-to-right rank layout stacks them.
     dfd = dfd.replace("fontsize = 14;\n    ]", "fontsize = 14;\n        rankdir = LR;\n        ranksep = 1.1;\n    ]", 1)
-    # pytm wraps long names with "\n", which Graphviz shows literally inside HTML-like labels
-    # (boundaries, Lambdas); convert those to <br/>.
-    dfd = re.sub(
-        r"<(i|b)>(.*?)</\1>", lambda m: f"<{m[1]}>{m[2].replace(chr(92) + 'n', '<br/>')}</{m[1]}>", dfd, flags=re.S
-    )
+    # Boundaries and Lambdas use HTML-like labels: pytm's "\n" wraps show literally there and a bare
+    # "&" makes Graphviz fail, so convert the former to <br/> and escape the latter.
+    def fix_html_label(m):
+        text = re.sub(r"&(?!amp;|lt;|gt;|quot;|#)", "&amp;", m[2]).replace(chr(92) + "n", "<br/>")
+        return f"<{m[1]}>{text}</{m[1]}>"
+
+    dfd = re.sub(r"<(i|b)>(.*?)</\1>", fix_html_label, dfd, flags=re.S)
     dfd = merge_parallel_edges(dfd)
     svg = subprocess.run(["dot", "-Tsvg"], input=dfd, capture_output=True, text=True, check=True).stdout
     # Graphviz embeds its version in a comment; drop it so output is stable across machines.
