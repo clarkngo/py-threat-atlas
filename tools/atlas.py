@@ -38,7 +38,7 @@ TIERS = [
 ]
 # Reading order within each tier (simpler systems first); unlisted systems sort alphabetically after these.
 ORDER = [
-    "saas-oidc-login", "ecommerce-checkout",
+    "saas-oidc-login", "ecommerce-checkout", "mobile-banking-backend", "microservices-order-platform",
     "serverless-file-upload", "multi-tenant-eks-saas",
     "rag-support-chatbot", "ml-fraud-scoring",
     "sre-incident-agent", "multi-agent-customer-ops",

@@ -8,7 +8,7 @@ The catalog goes in four tiers. Each tier keeps the threats of the one before it
 
 | Tier | What changes | Systems |
 |---|---|---|
-| **Traditional** | Web, API and identity: the baseline | [SaaS Login with OAuth 2.0 / OIDC](systems/traditional/saas-oidc-login/) · [E-commerce Checkout with Tokenized Payments](systems/traditional/ecommerce-checkout/) |
+| **Traditional** | Web, mobile, API, identity and microservices: the baseline | [SaaS Login with OAuth 2.0 / OIDC](systems/traditional/saas-oidc-login/) · [E-commerce Checkout with Tokenized Payments](systems/traditional/ecommerce-checkout/) · [Mobile Banking Backend](systems/traditional/mobile-banking-backend/) · [Microservices Order Platform](systems/traditional/microservices-order-platform/) |
 | **Cloud-native** | Identity and configuration become the perimeter | [Serverless File Upload Pipeline (AWS)](systems/cloud/serverless-file-upload/) · [Multi-Tenant SaaS on Amazon EKS](systems/cloud/multi-tenant-eks-saas/) |
 | **AI-enabled** | Untrusted text becomes an instruction channel; models become artifacts | [RAG Customer Support Chatbot](systems/ai/rag-support-chatbot/) · [Real-Time ML Fraud Scoring](systems/ai/ml-fraud-scoring/) |
 | **Agentic** | Prompt injection becomes privileged action | [Autonomous SRE Incident Agent](systems/agentic/sre-incident-agent/) · [Multi-Agent Customer Operations](systems/agentic/multi-agent-customer-ops/) |
@@ -17,6 +17,8 @@ The catalog goes in four tiers. Each tier keeps the threats of the one before it
 |---|---:|---:|---|
 | [SaaS Login with OAuth 2.0 / OIDC](systems/traditional/saas-oidc-login/) | 39 | 7 | High |
 | [E-commerce Checkout with Tokenized Payments](systems/traditional/ecommerce-checkout/) | 33 | 3 | High |
+| [Mobile Banking Backend](systems/traditional/mobile-banking-backend/) | 35 | 17 | High |
+| [Microservices Order Platform](systems/traditional/microservices-order-platform/) | 21 | 17 | Very High |
 | [Serverless File Upload Pipeline (AWS)](systems/cloud/serverless-file-upload/) | 21 | 11 | Very High |
 | [Multi-Tenant SaaS on Amazon EKS](systems/cloud/multi-tenant-eks-saas/) | 22 | 6 | Very High |
 | [RAG Customer Support Chatbot](systems/ai/rag-support-chatbot/) | 21 | 4 | Very High |
@@ -41,7 +43,7 @@ Every README contains:
 
 `threatlib/atlas_threats.json` is the library every model loads. It merges:
 
-- The **103 stock pytm rules** (CAPEC-derived), each tagged with a primary STRIDE category, with logic fixes for four rules whose conditions are inverted in pytm 1.3.1 (`INP19`, `INP21`, `INP22`, `DR01`).
+- The **103 stock pytm rules** (CAPEC-derived), each tagged with a primary STRIDE category, with fixes for five rules that are broken in pytm 1.3.1: four with inverted conditions (`INP19`, `INP21`, `INP22`, `DR01`), and `DO04`, which crashes on any dataflow carrying XML.
 - **32 Atlas extension rules** in [`threatlib/atlas_extensions.json`](threatlib/atlas_extensions.json):
   - `CLD01–08`: cloud. Public buckets, over-privileged workload identity, SSRF to metadata, pre-signed URL abuse, event injection, missing audit trail, CI/CD artifact tampering, cross-tenant access.
   - `AI01–12`: LLM and ML, mapped to the **OWASP Top 10 for LLM Applications 2025** and **MITRE ATLAS**.
