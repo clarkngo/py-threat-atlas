@@ -49,14 +49,14 @@
 <g id="node8" class="node">
 <title>datastore_CaseMemory_96ac87fabf</title>
 <image xlink:href="/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pytm/images/datastore_black.png" width="49.6px" height="36px" preserveAspectRatio="xMinYMin meet" x="380.242" y="-936"/>
-<text xml:space="preserve" text-anchor="middle" x="335.29" y="-886.7" font-family="Arial" font-size="14.00">Case Memory</text>
+<text xml:space="preserve" text-anchor="middle" x="389.29" y="-886.7" font-family="Arial" font-size="14.00">Case Memory</text>
 </g>
 <!-- server_IntakeAgent_86e4604564&#45;&gt;datastore_CaseMemory_96ac87fabf -->
 <g id="edge3" class="edge">
 <title>server_IntakeAgent_86e4604564&#45;&gt;datastore_CaseMemory_96ac87fabf</title>
-<path fill="none" stroke="black" d="M85.28,-1174.08C88.05,-1102.11 105.21,-964.5 192.59,-901.75 247.77,-862.12 333.25,-888.06 376.69,-905.64"/>
-<polygon fill="black" stroke="black" points="375.31,-908.85 385.88,-909.51 378.03,-902.4 375.31,-908.85"/>
-<text xml:space="preserve" text-anchor="middle" x="243.59" y="-904.6" font-family="Arial" font-size="12.00">(3) Create case</text>
+<path fill="none" stroke="black" d="M84.99,-1174.35C85.12,-1033.24 93.84,-608.45 192.59,-523.75 227,-494.24 261.11,-493.19 294.59,-523.75 352.32,-576.44 284.24,-808.31 326.59,-874 338,-891.7 359.19,-903.02 376.52,-909.74"/>
+<polygon fill="black" stroke="black" points="375.19,-912.98 385.79,-913.01 377.52,-906.38 375.19,-912.98"/>
+<text xml:space="preserve" text-anchor="middle" x="243.59" y="-526.6" font-family="Arial" font-size="12.00">(3) Create case</text>
 </g>
 <!-- server_OrchestratorAgent_b2e5892d06 -->
 <g id="node2" class="node">
@@ -101,10 +101,10 @@
 <!-- server_OrchestratorAgent_b2e5892d06&#45;&gt;server_OpsConsole_a22abb380b -->
 <g id="edge10" class="edge">
 <title>server_OrchestratorAgent_b2e5892d06&#45;&gt;server_OpsConsole_a22abb380b</title>
-<path fill="none" stroke="black" d="M127.4,-1352.61C137.45,-1337.11 146.91,-1319.6 152.59,-1302 207.16,-1132.92 132.4,-670.66 192.59,-503.5 228,-405.17 310.44,-312.62 361.28,-261.99"/>
-<polygon fill="black" stroke="black" points="363.72,-264.5 368.39,-254.99 358.81,-259.51 363.72,-264.5"/>
-<text xml:space="preserve" text-anchor="middle" x="243.59" y="-520.6" font-family="Arial" font-size="12.00">(11) Request</text>
-<text xml:space="preserve" text-anchor="middle" x="243.59" y="-506.35" font-family="Arial" font-size="12.00">approval</text>
+<path fill="none" stroke="black" d="M127.31,-1352.58C137.37,-1337.09 146.85,-1319.58 152.59,-1302 200.69,-1154.85 113.57,-739.62 192.59,-606.5 219.85,-560.58 265.35,-587.68 294.59,-543 348.46,-460.69 288.54,-414.71 326.59,-324 335.53,-302.7 349.97,-281.89 363.97,-264.68"/>
+<polygon fill="black" stroke="black" points="366.51,-267.1 370.25,-257.18 361.15,-262.6 366.51,-267.1"/>
+<text xml:space="preserve" text-anchor="middle" x="243.59" y="-623.6" font-family="Arial" font-size="12.00">(11) Request</text>
+<text xml:space="preserve" text-anchor="middle" x="243.59" y="-609.35" font-family="Arial" font-size="12.00">approval</text>
 </g>
 <!-- server_OrderCRMService_4c7b12dcc9 -->
 <g id="node7" class="node">
@@ -116,17 +116,9 @@
 <!-- server_OrchestratorAgent_b2e5892d06&#45;&gt;server_OrderCRMService_4c7b12dcc9 -->
 <g id="edge5" class="edge">
 <title>server_OrchestratorAgent_b2e5892d06&#45;&gt;server_OrderCRMService_4c7b12dcc9</title>
-<path fill="none" stroke="black" d="M124.61,-1350.45C134.49,-1335.17 144.55,-1318.3 152.59,-1302 176.03,-1254.5 158.59,-1230.36 192.59,-1189.75 213.37,-1164.93 284.95,-1126.6 339.12,-1099.8"/>
-<polygon fill="black" stroke="black" points="340.57,-1102.99 348,-1095.44 337.48,-1096.71 340.57,-1102.99"/>
-<text xml:space="preserve" text-anchor="middle" x="243.59" y="-1192.6" font-family="Arial" font-size="12.00">(5) Look up order</text>
-</g>
-<!-- server_OrchestratorAgent_b2e5892d06&#45;&gt;datastore_CaseMemory_96ac87fabf -->
-<g id="edge14" class="edge">
-<title>server_OrchestratorAgent_b2e5892d06&#45;&gt;datastore_CaseMemory_96ac87fabf</title>
-<path fill="none" stroke="black" d="M126.3,-1351.55C136.23,-1336.19 145.9,-1319.01 152.59,-1302 189.87,-1207.28 135.86,-1161.01 192.59,-1076.5 222.49,-1031.97 254.62,-1047.77 294.59,-1012 311.56,-996.82 309.97,-987.56 326.59,-972 342.2,-957.39 362.01,-943.65 377.68,-933.68"/>
-<polygon fill="black" stroke="black" points="379.37,-936.76 386.02,-928.51 375.68,-930.81 379.37,-936.76"/>
-<text xml:space="preserve" text-anchor="middle" x="243.59" y="-1093.6" font-family="Arial" font-size="12.00">(15) Append plan +</text>
-<text xml:space="preserve" text-anchor="middle" x="243.59" y="-1079.35" font-family="Arial" font-size="12.00">results</text>
+<path fill="none" stroke="black" d="M125.15,-1350.71C135.02,-1335.42 144.95,-1318.49 152.59,-1302 178.42,-1246.29 152.57,-1216.32 192.59,-1169.75 229.28,-1127.07 288.1,-1101.09 334.4,-1086.23"/>
+<polygon fill="black" stroke="black" points="335.31,-1089.61 343.83,-1083.31 333.24,-1082.92 335.31,-1089.61"/>
+<text xml:space="preserve" text-anchor="middle" x="243.59" y="-1172.6" font-family="Arial" font-size="12.00">(5) Look up order</text>
 </g>
 <!-- server_CarrierTrackingAgentpartner_65d0d57a00 -->
 <g id="node10" class="node">
@@ -138,13 +130,13 @@
 <!-- server_OrchestratorAgent_b2e5892d06&#45;&gt;server_CarrierTrackingAgentpartner_65d0d57a00 -->
 <g id="edge6" class="edge">
 <title>server_OrchestratorAgent_b2e5892d06&#45;&gt;server_CarrierTrackingAgentpartner_65d0d57a00</title>
-<path fill="none" stroke="black" d="M133.08,-1342.82C140.83,-1329.89 147.85,-1315.96 152.59,-1302 188.15,-1197.29 120.18,-889.57 192.59,-806 224.41,-769.28 277.89,-757.39 323.1,-754.62"/>
-<polygon fill="none" stroke="black" points="130.17,-1340.87 127.84,-1351.21 136.11,-1344.58 130.17,-1340.87"/>
-<polygon fill="black" stroke="black" points="323.06,-758.12 332.89,-754.17 322.74,-751.13 323.06,-758.12"/>
-<text xml:space="preserve" text-anchor="middle" x="243.59" y="-851.6" font-family="Arial" font-size="12.00">(6) A2A: get</text>
-<text xml:space="preserve" text-anchor="middle" x="243.59" y="-837.35" font-family="Arial" font-size="12.00">delivery status</text>
-<text xml:space="preserve" text-anchor="middle" x="243.59" y="-823.1" font-family="Arial" font-size="12.00"> &#160;&#160;&#160;(7) A2A: delivery</text>
-<text xml:space="preserve" text-anchor="middle" x="243.59" y="-808.85" font-family="Arial" font-size="12.00">evidence</text>
+<path fill="none" stroke="black" d="M133.05,-1342.54C140.76,-1329.68 147.78,-1315.84 152.59,-1302 183.2,-1214.08 142.92,-963.74 192.59,-885 223.29,-836.34 279.99,-803.78 326.96,-783.82"/>
+<polygon fill="none" stroke="black" points="130.17,-1340.54 127.84,-1350.88 136.11,-1344.25 130.17,-1340.54"/>
+<polygon fill="black" stroke="black" points="328.12,-787.13 336.04,-780.08 325.46,-780.65 328.12,-787.13"/>
+<text xml:space="preserve" text-anchor="middle" x="243.59" y="-930.6" font-family="Arial" font-size="12.00">(6) A2A: get</text>
+<text xml:space="preserve" text-anchor="middle" x="243.59" y="-916.35" font-family="Arial" font-size="12.00">delivery status</text>
+<text xml:space="preserve" text-anchor="middle" x="243.59" y="-902.1" font-family="Arial" font-size="12.00"> &#160;&#160;&#160;(7) A2A: delivery</text>
+<text xml:space="preserve" text-anchor="middle" x="243.59" y="-887.85" font-family="Arial" font-size="12.00">evidence</text>
 </g>
 <!-- externalentity_FoundationModelAPI_9345ab4c19 -->
 <g id="node13" class="node">
@@ -154,20 +146,20 @@
 <text xml:space="preserve" text-anchor="middle" x="718.18" y="-588.7" font-family="Arial" font-size="14.00">API</text>
 </g>
 <!-- server_OrchestratorAgent_b2e5892d06&#45;&gt;externalentity_FoundationModelAPI_9345ab4c19 -->
-<g id="edge15" class="edge">
+<g id="edge14" class="edge">
 <title>server_OrchestratorAgent_b2e5892d06&#45;&gt;externalentity_FoundationModelAPI_9345ab4c19</title>
-<path fill="none" stroke="black" d="M127.15,-1352.53C137.21,-1337.03 146.73,-1319.54 152.59,-1302 192.3,-1183.26 134.2,-850.76 192.59,-740 276.83,-580.21 529.34,-582.4 650.67,-593.54"/>
-<polygon fill="black" stroke="black" points="650.19,-597.01 660.48,-594.49 650.87,-590.04 650.19,-597.01"/>
-<text xml:space="preserve" text-anchor="middle" x="405.04" y="-641.14" font-family="Arial" font-size="12.00">(16) Model calls</text>
-<text xml:space="preserve" text-anchor="middle" x="405.04" y="-626.89" font-family="Arial" font-size="12.00">(all agents)</text>
+<path fill="none" stroke="black" d="M127.09,-1352.51C137.14,-1337.01 146.68,-1319.52 152.59,-1302 226.73,-1082.38 101.17,-995 192.59,-782 227.66,-700.31 246.88,-672.85 326.59,-633.5 430.88,-582.02 570.07,-585.25 651.04,-593.07"/>
+<polygon fill="black" stroke="black" points="650.25,-596.51 660.56,-594.05 650.97,-589.55 650.25,-596.51"/>
+<text xml:space="preserve" text-anchor="middle" x="405.04" y="-650.6" font-family="Arial" font-size="12.00">(16) Model calls</text>
+<text xml:space="preserve" text-anchor="middle" x="405.04" y="-636.35" font-family="Arial" font-size="12.00">(all agents)</text>
 </g>
 <!-- server_RefundAgent_990b886585&#45;&gt;server_OrderCRMService_4c7b12dcc9 -->
 <g id="edge8" class="edge">
 <title>server_RefundAgent_990b886585&#45;&gt;server_OrderCRMService_4c7b12dcc9</title>
-<path fill="none" stroke="black" d="M364.59,-1383.31C326.02,-1353.21 270.41,-1302.03 246.88,-1242.25 223.7,-1183.38 286.88,-1132.17 340.15,-1100.99"/>
-<polygon fill="black" stroke="black" points="341.69,-1104.15 348.65,-1096.16 338.23,-1098.06 341.69,-1104.15"/>
-<text xml:space="preserve" text-anchor="middle" x="243.59" y="-1230.85" font-family="Arial" font-size="12.00">(9) Verify</text>
-<text xml:space="preserve" text-anchor="middle" x="243.59" y="-1216.6" font-family="Arial" font-size="12.00">eligibility</text>
+<path fill="none" stroke="black" d="M365.69,-1381.95C326.79,-1349.48 269.86,-1293.77 246.88,-1230.25 226.45,-1173.78 287.05,-1127.17 339.05,-1098.83"/>
+<polygon fill="black" stroke="black" points="340.44,-1102.06 347.64,-1094.29 337.16,-1095.87 340.44,-1102.06"/>
+<text xml:space="preserve" text-anchor="middle" x="243.59" y="-1218.85" font-family="Arial" font-size="12.00">(9) Verify</text>
+<text xml:space="preserve" text-anchor="middle" x="243.59" y="-1204.6" font-family="Arial" font-size="12.00">eligibility</text>
 </g>
 <!-- externalentity_PaymentsAPI_c6f87088c2 -->
 <g id="node12" class="node">
@@ -215,9 +207,12 @@
 <!-- datastore_CaseMemory_96ac87fabf&#45;&gt;server_OrchestratorAgent_b2e5892d06 -->
 <g id="edge4" class="edge">
 <title>datastore_CaseMemory_96ac87fabf&#45;&gt;server_OrchestratorAgent_b2e5892d06</title>
-<path fill="none" stroke="black" d="M387.3,-918.37C346.64,-920.24 242.4,-931.13 192.59,-992.75 105.47,-1100.53 200.31,-1171.88 152.59,-1302 147.55,-1315.76 140.42,-1329.56 132.68,-1342.4"/>
-<polygon fill="black" stroke="black" points="129.8,-1340.41 127.47,-1350.74 135.73,-1344.12 129.8,-1340.41"/>
-<text xml:space="preserve" text-anchor="middle" x="243.59" y="-995.6" font-family="Arial" font-size="12.00">(4) Load case</text>
+<path fill="none" stroke="black" d="M376.13,-925.81C329.72,-940.36 237.35,-976.29 192.59,-1042.25 127.01,-1138.91 194.13,-1192.83 152.59,-1302 147.38,-1315.69 140.18,-1329.47 132.41,-1342.3"/>
+<polygon fill="none" stroke="black" points="377.13,-929.16 385.7,-922.92 375.11,-922.46 377.13,-929.16"/>
+<polygon fill="black" stroke="black" points="129.53,-1340.31 127.19,-1350.64 135.46,-1344.02 129.53,-1340.31"/>
+<text xml:space="preserve" text-anchor="middle" x="243.59" y="-1073.6" font-family="Arial" font-size="12.00">(4) Load case</text>
+<text xml:space="preserve" text-anchor="middle" x="243.59" y="-1059.35" font-family="Arial" font-size="12.00">(15) Append plan +</text>
+<text xml:space="preserve" text-anchor="middle" x="243.59" y="-1045.1" font-family="Arial" font-size="12.00">results</text>
 </g>
 <!-- actor_Customerorimpersonator_2c440ebe53 -->
 <g id="node9" class="node">
@@ -236,10 +231,10 @@
 <!-- externalentity_EmailProviderinboundoutbound_c76a0a7067&#45;&gt;server_IntakeAgent_86e4604564 -->
 <g id="edge2" class="edge">
 <title>externalentity_EmailProviderinboundoutbound_c76a0a7067&#45;&gt;server_IntakeAgent_86e4604564</title>
-<path fill="none" stroke="black" d="M657.96,-417.77C545.03,-428.5 300.59,-469.58 192.59,-626 132.49,-713.06 100.45,-1032.28 89.59,-1163.3"/>
-<polygon fill="black" stroke="black" points="86.12,-1162.88 88.79,-1173.13 93.09,-1163.45 86.12,-1162.88"/>
-<text xml:space="preserve" text-anchor="middle" x="405.04" y="-524.66" font-family="Arial" font-size="12.00">(2) Inbound</text>
-<text xml:space="preserve" text-anchor="middle" x="405.04" y="-510.41" font-family="Arial" font-size="12.00">webhook</text>
+<path fill="none" stroke="black" d="M657.91,-401.41C549.25,-382.14 317.83,-359.47 192.59,-483 96.66,-577.61 85.81,-1006.63 85.1,-1162.87"/>
+<polygon fill="black" stroke="black" points="81.6,-1162.55 85.07,-1172.56 88.6,-1162.57 81.6,-1162.55"/>
+<text xml:space="preserve" text-anchor="middle" x="405.04" y="-422.64" font-family="Arial" font-size="12.00">(2) Inbound</text>
+<text xml:space="preserve" text-anchor="middle" x="405.04" y="-408.39" font-family="Arial" font-size="12.00">webhook</text>
 </g>
 </g>
 </svg>
