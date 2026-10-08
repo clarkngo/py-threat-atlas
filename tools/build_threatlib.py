@@ -60,12 +60,17 @@ STOCK_STRIDE = {
 }
 
 
-# Corrections to stock pytm 1.3.1 conditions with inverted logic.
+# Corrections to stock pytm 1.3.1 conditions that are inverted or reference missing attributes.
 CONDITION_PATCHES = {
     # XXE / DTD threats fired for every server that does NOT parse XML.
     "INP19": "target.usesXMLParser is True and target.controls.disablesDTD is False",
     "INP21": "target.usesXMLParser is True and target.controls.disablesDTD is False",
     "INP22": "target.usesXMLParser is True and target.controls.disablesDTD is False",
+    # Referenced Dataflow.handlesResources, which does not exist (crashes on any XML flow).
+    "DO04": (
+        "any(d.format == 'XML' for d in target.data) and "
+        "target.sink.controls.handlesResourceConsumption is False"
+    ),
     # Fired when stored data WAS encrypted at rest instead of when it was not.
     "DR01": (
         "(target.hasDataLeaks() or any(d.isCredentials or d.isPII for d in target.data)) and "
