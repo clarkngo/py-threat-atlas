@@ -136,14 +136,15 @@
 <!-- datastore_ChannelDB_990b886585 -->
 <g id="node9" class="node">
 <title>datastore_ChannelDB_990b886585</title>
-<image xlink:href="/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pytm/images/datastore_black.png" width="49.6px" height="36px" preserveAspectRatio="xMinYMin meet" x="720.463" y="-949"/>
-<text xml:space="preserve" text-anchor="middle" x="681.89" y="-899.7" font-family="Arial" font-size="14.00">Channel DB</text>
+<path fill="none" stroke="black" d="M789.64,-945.73C789.64,-947.53 769.75,-949 745.26,-949 720.78,-949 700.89,-947.53 700.89,-945.73 700.89,-945.73 700.89,-916.27 700.89,-916.27 700.89,-914.47 720.78,-913 745.26,-913 769.75,-913 789.64,-914.47 789.64,-916.27 789.64,-916.27 789.64,-945.73 789.64,-945.73"/>
+<path fill="none" stroke="black" d="M789.64,-945.73C789.64,-943.92 769.75,-942.45 745.26,-942.45 720.78,-942.45 700.89,-943.92 700.89,-945.73"/>
+<text xml:space="preserve" text-anchor="middle" x="745.26" y="-925.58" font-family="Arial" font-size="14.00">Channel DB</text>
 </g>
 <!-- server_AuthDeviceBindingService_9345ab4c19&#45;&gt;datastore_ChannelDB_990b886585 -->
 <g id="edge5" class="edge">
 <title>server_AuthDeviceBindingService_9345ab4c19&#45;&gt;datastore_ChannelDB_990b886585</title>
-<path fill="none" stroke="black" d="M472.41,-873.93C515.57,-871.06 572.64,-870.39 622.09,-880.25 656.46,-887.11 693.28,-903.83 717.4,-916.21"/>
-<polygon fill="black" stroke="black" points="715.72,-919.28 726.2,-920.84 718.98,-913.09 715.72,-919.28"/>
+<path fill="none" stroke="black" d="M472.41,-873.93C515.57,-871.06 572.64,-870.39 622.09,-880.25 649.63,-885.74 678.73,-897.57 701.62,-908.42"/>
+<polygon fill="black" stroke="black" points="699.79,-911.42 710.31,-912.65 702.85,-905.13 699.79,-911.42"/>
 <text xml:space="preserve" text-anchor="middle" x="568.46" y="-911.6" font-family="Arial" font-size="12.00">(5) Verify device</text>
 <text xml:space="preserve" text-anchor="middle" x="568.46" y="-897.35" font-family="Arial" font-size="12.00">key / record OTP</text>
 <text xml:space="preserve" text-anchor="middle" x="568.46" y="-883.1" font-family="Arial" font-size="12.00">attempt</text>
@@ -197,8 +198,8 @@
 <!-- server_MobileBankingAPI_86e4604564&#45;&gt;datastore_ChannelDB_990b886585 -->
 <g id="edge10" class="edge">
 <title>server_MobileBankingAPI_86e4604564&#45;&gt;datastore_ChannelDB_990b886585</title>
-<path fill="none" stroke="black" d="M468.3,-1062.09C542.83,-1026.69 663.57,-969.33 717.16,-943.88"/>
-<polygon fill="black" stroke="black" points="718.63,-947.05 726.16,-939.6 715.63,-940.73 718.63,-947.05"/>
+<path fill="none" stroke="black" d="M468.3,-1062.09C534.76,-1030.52 637.96,-981.5 697.53,-953.2"/>
+<polygon fill="black" stroke="black" points="698.87,-956.44 706.4,-948.98 695.87,-950.11 698.87,-956.44"/>
 <text xml:space="preserve" text-anchor="middle" x="568.46" y="-1057.02" font-family="Arial" font-size="12.00">(12) Read / write</text>
 <text xml:space="preserve" text-anchor="middle" x="568.46" y="-1042.77" font-family="Arial" font-size="12.00">payees</text>
 </g>

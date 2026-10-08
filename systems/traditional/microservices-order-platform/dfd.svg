@@ -27,8 +27,8 @@
 </g>
 <g id="clust4" class="cluster">
 <title>cluster_boundary_DataServices_d2006ce1bb</title>
-<polygon fill="none" stroke="#ee2c2c" stroke-dasharray="5,2" points="922.81,-273.29 922.81,-777.29 1001.06,-777.29 1001.06,-273.29 922.81,-273.29"/>
-<text xml:space="preserve" text-anchor="start" x="930.81" y="-764.79" font-family="Arial" font-style="italic" font-size="10.00">Data Services</text>
+<polygon fill="none" stroke="#ee2c2c" stroke-dasharray="5,2" points="895.56,-273.29 895.56,-777.29 1027.31,-777.29 1027.31,-273.29 895.56,-273.29"/>
+<text xml:space="preserve" text-anchor="start" x="930.31" y="-764.79" font-family="Arial" font-style="italic" font-size="10.00">Data Services</text>
 </g>
 <g id="clust5" class="cluster">
 <title>cluster_boundary_Internet_acf3059e70</title>
@@ -54,28 +54,30 @@
 <!-- datastore_KafkaEventBus_4c7b12dcc9 -->
 <g id="node7" class="node">
 <title>datastore_KafkaEventBus_4c7b12dcc9</title>
-<image xlink:href="/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pytm/images/datastore_black.png" width="49.6px" height="36px" preserveAspectRatio="xMinYMin meet" x="936.632" y="-425.293"/>
-<text xml:space="preserve" text-anchor="middle" x="884.56" y="-375.99" font-family="Arial" font-size="14.00">Kafka Event Bus</text>
+<path fill="none" stroke="black" d="M1019.31,-422.02C1019.31,-423.83 993.37,-425.29 961.43,-425.29 929.5,-425.29 903.56,-423.83 903.56,-422.02 903.56,-422.02 903.56,-392.57 903.56,-392.57 903.56,-390.76 929.5,-389.29 961.43,-389.29 993.37,-389.29 1019.31,-390.76 1019.31,-392.57 1019.31,-392.57 1019.31,-422.02 1019.31,-422.02"/>
+<path fill="none" stroke="black" d="M1019.31,-422.02C1019.31,-420.21 993.37,-418.75 961.43,-418.75 929.5,-418.75 903.56,-420.21 903.56,-422.02"/>
+<text xml:space="preserve" text-anchor="middle" x="961.43" y="-401.87" font-family="Arial" font-size="14.00">Kafka Event Bus</text>
 </g>
 <!-- server_OrderService_86e4604564&#45;&gt;datastore_KafkaEventBus_4c7b12dcc9 -->
 <g id="edge5" class="edge">
 <title>server_OrderService_86e4604564&#45;&gt;datastore_KafkaEventBus_4c7b12dcc9</title>
-<path fill="none" stroke="black" d="M687.85,-982.27C697.12,-968.14 706.29,-951.68 711.82,-935.29 743.56,-841.1 692.31,-569.41 751.82,-489.79 774.31,-459.69 881.43,-428.1 932.81,-414.36"/>
-<polygon fill="black" stroke="black" points="933.49,-417.8 942.27,-411.87 931.71,-411.03 933.49,-417.8"/>
+<path fill="none" stroke="black" d="M687.85,-982.27C697.12,-968.14 706.29,-951.68 711.82,-935.29 743.56,-841.1 692.31,-569.41 751.82,-489.79 769.35,-466.34 838.28,-441.97 892.16,-425.85"/>
+<polygon fill="black" stroke="black" points="893.01,-429.25 901.61,-423.07 891.03,-422.54 893.01,-429.25"/>
 <text xml:space="preserve" text-anchor="middle" x="804.32" y="-506.89" font-family="Arial" font-size="12.00">(5) Publish</text>
 <text xml:space="preserve" text-anchor="middle" x="804.32" y="-492.64" font-family="Arial" font-size="12.00">OrderPlaced</text>
 </g>
 <!-- datastore_OrderDB_96ac87fabf -->
 <g id="node8" class="node">
 <title>datastore_OrderDB_96ac87fabf</title>
-<image xlink:href="/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pytm/images/datastore_black.png" width="49.6px" height="36px" preserveAspectRatio="xMinYMin meet" x="936.632" y="-317.293"/>
-<text xml:space="preserve" text-anchor="middle" x="905.56" y="-267.99" font-family="Arial" font-size="14.00">Order DB</text>
+<path fill="none" stroke="black" d="M998.31,-314.02C998.31,-315.83 981.78,-317.29 961.43,-317.29 941.09,-317.29 924.56,-315.83 924.56,-314.02 924.56,-314.02 924.56,-284.57 924.56,-284.57 924.56,-282.76 941.09,-281.29 961.43,-281.29 981.78,-281.29 998.31,-282.76 998.31,-284.57 998.31,-284.57 998.31,-314.02 998.31,-314.02"/>
+<path fill="none" stroke="black" d="M998.31,-314.02C998.31,-312.21 981.78,-310.75 961.43,-310.75 941.09,-310.75 924.56,-312.21 924.56,-314.02"/>
+<text xml:space="preserve" text-anchor="middle" x="961.43" y="-293.87" font-family="Arial" font-size="14.00">Order DB</text>
 </g>
 <!-- server_OrderService_86e4604564&#45;&gt;datastore_OrderDB_96ac87fabf -->
 <g id="edge4" class="edge">
 <title>server_OrderService_86e4604564&#45;&gt;datastore_OrderDB_96ac87fabf</title>
-<path fill="none" stroke="black" d="M688,-982.32C697.28,-968.2 706.43,-951.73 711.82,-935.29 749.62,-820.01 681.78,-489.86 751.82,-390.79 794.47,-330.47 885.96,-309.46 932.3,-302.51"/>
-<polygon fill="black" stroke="black" points="932.64,-306 942.07,-301.17 931.69,-299.06 932.64,-306"/>
+<path fill="none" stroke="black" d="M688,-982.32C697.28,-968.2 706.43,-951.73 711.82,-935.29 749.62,-820.01 681.78,-489.86 751.82,-390.79 789.12,-338.03 863.8,-315.34 912.94,-305.84"/>
+<polygon fill="black" stroke="black" points="913.52,-309.29 922.74,-304.06 912.28,-302.4 913.52,-309.29"/>
 <text xml:space="preserve" text-anchor="middle" x="804.32" y="-407.89" font-family="Arial" font-size="12.00">(4) Insert order</text>
 <text xml:space="preserve" text-anchor="middle" x="804.32" y="-393.64" font-family="Arial" font-size="12.00">(PENDING)</text>
 </g>
@@ -131,36 +133,38 @@
 <!-- datastore_InventoryDB_b6d21685ee -->
 <g id="node9" class="node">
 <title>datastore_InventoryDB_b6d21685ee</title>
-<image xlink:href="/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pytm/images/datastore_black.png" width="49.6px" height="36px" preserveAspectRatio="xMinYMin meet" x="936.632" y="-533.293"/>
-<text xml:space="preserve" text-anchor="middle" x="895.43" y="-483.99" font-family="Arial" font-size="14.00">Inventory DB</text>
+<path fill="none" stroke="black" d="M1008.43,-530.02C1008.43,-531.83 987.37,-533.29 961.43,-533.29 935.5,-533.29 914.43,-531.83 914.43,-530.02 914.43,-530.02 914.43,-500.57 914.43,-500.57 914.43,-498.76 935.5,-497.29 961.43,-497.29 987.37,-497.29 1008.43,-498.76 1008.43,-500.57 1008.43,-500.57 1008.43,-530.02 1008.43,-530.02"/>
+<path fill="none" stroke="black" d="M1008.43,-530.02C1008.43,-528.21 987.37,-526.75 961.43,-526.75 935.5,-526.75 914.43,-528.21 914.43,-530.02"/>
+<text xml:space="preserve" text-anchor="middle" x="961.43" y="-509.87" font-family="Arial" font-size="14.00">Inventory DB</text>
 </g>
 <!-- server_InventoryService_990b886585&#45;&gt;datastore_InventoryDB_b6d21685ee -->
 <g id="edge8" class="edge">
 <title>server_InventoryService_990b886585&#45;&gt;datastore_InventoryDB_b6d21685ee</title>
-<path fill="none" stroke="black" d="M904.03,-898.66C852.26,-871.24 786.18,-823.15 799.88,-761.04 820.12,-669.31 829.54,-642.17 888.82,-569.29 901.3,-553.94 919.08,-540.63 933.91,-531.06"/>
-<polygon fill="black" stroke="black" points="935.67,-534.09 942.33,-525.85 931.98,-528.14 935.67,-534.09"/>
+<path fill="none" stroke="black" d="M904.03,-898.66C852.26,-871.24 786.18,-823.15 799.88,-761.04 820.12,-669.31 829.54,-642.17 888.82,-569.29 897.8,-558.25 909.52,-548.25 920.92,-539.95"/>
+<polygon fill="black" stroke="black" points="922.9,-542.84 929.11,-534.26 918.9,-537.1 922.9,-542.84"/>
 <text xml:space="preserve" text-anchor="middle" x="804.32" y="-778.14" font-family="Arial" font-size="12.00">(8) Write</text>
 <text xml:space="preserve" text-anchor="middle" x="804.32" y="-763.89" font-family="Arial" font-size="12.00">reservation</text>
 </g>
 <!-- server_PaymentService_9df04f8dae&#45;&gt;datastore_KafkaEventBus_4c7b12dcc9 -->
 <g id="edge12" class="edge">
 <title>server_PaymentService_9df04f8dae&#45;&gt;datastore_KafkaEventBus_4c7b12dcc9</title>
-<path fill="none" stroke="black" d="M907.18,-1090.01C862.91,-1061.89 803.51,-1015.52 777.01,-956.54 730.76,-853.63 826.68,-555.47 888.82,-461.29 900.03,-444.3 918.5,-430.67 934.01,-421.36"/>
-<polygon fill="black" stroke="black" points="935.39,-424.6 942.35,-416.61 931.93,-418.51 935.39,-424.6"/>
+<path fill="none" stroke="black" d="M907.18,-1090.01C862.91,-1061.89 803.51,-1015.52 777.01,-956.54 730.76,-853.63 826.68,-555.47 888.82,-461.29 896.32,-449.92 907.07,-440.06 918.01,-431.98"/>
+<polygon fill="black" stroke="black" points="919.71,-435.07 925.93,-426.49 915.72,-429.31 919.71,-435.07"/>
 <text xml:space="preserve" text-anchor="middle" x="804.32" y="-945.14" font-family="Arial" font-size="12.00">(12) Publish</text>
 <text xml:space="preserve" text-anchor="middle" x="804.32" y="-930.89" font-family="Arial" font-size="12.00">PaymentAuthorized</text>
 </g>
 <!-- datastore_PaymentDB_385a5311c0 -->
 <g id="node10" class="node">
 <title>datastore_PaymentDB_385a5311c0</title>
-<image xlink:href="/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pytm/images/datastore_black.png" width="49.6px" height="36px" preserveAspectRatio="xMinYMin meet" x="936.632" y="-749.293"/>
-<text xml:space="preserve" text-anchor="middle" x="896.18" y="-699.99" font-family="Arial" font-size="14.00">Payment DB</text>
+<path fill="none" stroke="black" d="M1007.68,-746.02C1007.68,-747.83 986.95,-749.29 961.43,-749.29 935.91,-749.29 915.18,-747.83 915.18,-746.02 915.18,-746.02 915.18,-716.57 915.18,-716.57 915.18,-714.76 935.91,-713.29 961.43,-713.29 986.95,-713.29 1007.68,-714.76 1007.68,-716.57 1007.68,-716.57 1007.68,-746.02 1007.68,-746.02"/>
+<path fill="none" stroke="black" d="M1007.68,-746.02C1007.68,-744.21 986.95,-742.75 961.43,-742.75 935.91,-742.75 915.18,-744.21 915.18,-746.02"/>
+<text xml:space="preserve" text-anchor="middle" x="961.43" y="-725.87" font-family="Arial" font-size="14.00">Payment DB</text>
 </g>
 <!-- server_PaymentService_9df04f8dae&#45;&gt;datastore_PaymentDB_385a5311c0 -->
 <g id="edge11" class="edge">
 <title>server_PaymentService_9df04f8dae&#45;&gt;datastore_PaymentDB_385a5311c0</title>
-<path fill="none" stroke="black" d="M914.76,-1079.19C870.28,-1036.63 806.26,-965.64 779.63,-888.54 752.74,-810.7 875.34,-759.43 932.94,-740.02"/>
-<polygon fill="black" stroke="black" points="933.67,-743.46 942.09,-737.03 931.5,-736.81 933.67,-743.46"/>
+<path fill="none" stroke="black" d="M914.76,-1079.19C870.28,-1036.63 806.26,-965.64 779.63,-888.54 756.64,-821.98 842.94,-774.85 904.45,-750.45"/>
+<polygon fill="black" stroke="black" points="905.36,-753.85 913.44,-746.99 902.85,-747.32 905.36,-753.85"/>
 <text xml:space="preserve" text-anchor="middle" x="804.32" y="-877.14" font-family="Arial" font-size="12.00">(11) Write payment</text>
 <text xml:space="preserve" text-anchor="middle" x="804.32" y="-862.89" font-family="Arial" font-size="12.00">record</text>
 </g>
@@ -217,8 +221,8 @@
 <!-- datastore_KafkaEventBus_4c7b12dcc9&#45;&gt;server_OrderSagaOrchestrator_b2e5892d06 -->
 <g id="edge6" class="edge">
 <title>datastore_KafkaEventBus_4c7b12dcc9&#45;&gt;server_OrderSagaOrchestrator_b2e5892d06</title>
-<path fill="none" stroke="black" d="M934.08,-422.53C919.27,-432.14 901.29,-445.67 888.82,-461.29 867.21,-488.33 879.8,-506.41 856.82,-532.29 820.65,-573.03 780.44,-549.19 751.82,-595.54 691.65,-692.98 746.65,-1000.21 711.82,-1109.29 707.87,-1121.65 701.97,-1134.08 695.48,-1145.63"/>
-<polygon fill="none" stroke="black" points="935.81,-425.58 942.45,-417.32 932.11,-419.64 935.81,-425.58"/>
+<path fill="none" stroke="black" d="M920.12,-432.19C908.97,-440.45 897.55,-450.36 888.82,-461.29 867.21,-488.33 879.8,-506.41 856.82,-532.29 820.65,-573.03 780.44,-549.19 751.82,-595.54 691.65,-692.98 746.65,-1000.21 711.82,-1109.29 707.87,-1121.65 701.97,-1134.08 695.48,-1145.63"/>
+<polygon fill="none" stroke="black" points="921.98,-435.17 928.12,-426.53 917.94,-429.45 921.98,-435.17"/>
 <polygon fill="black" stroke="black" points="692.49,-1143.82 690.44,-1154.21 698.52,-1147.37 692.49,-1143.82"/>
 <text xml:space="preserve" text-anchor="middle" x="804.32" y="-683.89" font-family="Arial" font-size="12.00">(6) Consume</text>
 <text xml:space="preserve" text-anchor="middle" x="804.32" y="-669.64" font-family="Arial" font-size="12.00">order.* /</text>
@@ -231,7 +235,7 @@
 <!-- datastore_KafkaEventBus_4c7b12dcc9&#45;&gt;server_NotificationService_65d0d57a00 -->
 <g id="edge13" class="edge">
 <title>datastore_KafkaEventBus_4c7b12dcc9&#45;&gt;server_NotificationService_65d0d57a00</title>
-<path fill="none" stroke="black" d="M943.58,-399.33C926.86,-390.52 901.91,-374.67 888.82,-353.29 846.03,-283.45 919.56,-224.44 856.82,-171.79 821.07,-141.8 787.02,-141.16 751.82,-171.79 705.4,-212.19 672.21,-630.66 661.19,-789.55"/>
+<path fill="none" stroke="black" d="M925.85,-388.89C912.24,-379.92 897.76,-367.9 888.82,-353.29 846.03,-283.45 919.56,-224.44 856.82,-171.79 821.07,-141.8 787.02,-141.16 751.82,-171.79 705.4,-212.19 672.21,-630.66 661.19,-789.55"/>
 <polygon fill="black" stroke="black" points="657.71,-789.26 660.51,-799.47 664.69,-789.74 657.71,-789.26"/>
 <text xml:space="preserve" text-anchor="middle" x="804.32" y="-188.89" font-family="Arial" font-size="12.00">(14) Consume</text>
 <text xml:space="preserve" text-anchor="middle" x="804.32" y="-174.64" font-family="Arial" font-size="12.00">order.confirmed</text>
@@ -239,13 +243,14 @@
 <!-- datastore_HashiCorpVault_2a2f1d5596 -->
 <g id="node11" class="node">
 <title>datastore_HashiCorpVault_2a2f1d5596</title>
-<image xlink:href="/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pytm/images/datastore_black.png" width="49.6px" height="36px" preserveAspectRatio="xMinYMin meet" x="936.632" y="-641.293"/>
-<text xml:space="preserve" text-anchor="middle" x="939.68" y="-591.99" font-family="Arial" font-size="14.00">HashiCorp Vault</text>
+<path fill="none" stroke="black" d="M1018.18,-638.02C1018.18,-639.83 992.75,-641.29 961.43,-641.29 930.12,-641.29 904.68,-639.83 904.68,-638.02 904.68,-638.02 904.68,-608.57 904.68,-608.57 904.68,-606.76 930.12,-605.29 961.43,-605.29 992.75,-605.29 1018.18,-606.76 1018.18,-608.57 1018.18,-608.57 1018.18,-638.02 1018.18,-638.02"/>
+<path fill="none" stroke="black" d="M1018.18,-638.02C1018.18,-636.21 992.75,-634.75 961.43,-634.75 930.12,-634.75 904.68,-636.21 904.68,-638.02"/>
+<text xml:space="preserve" text-anchor="middle" x="961.43" y="-617.87" font-family="Arial" font-size="14.00">HashiCorp Vault</text>
 </g>
 <!-- datastore_HashiCorpVault_2a2f1d5596&#45;&gt;server_PaymentService_9df04f8dae -->
 <g id="edge15" class="edge">
 <title>datastore_HashiCorpVault_2a2f1d5596&#45;&gt;server_PaymentService_9df04f8dae</title>
-<path fill="none" stroke="black" d="M943.66,-626.17C906.53,-633.24 821.27,-655.31 786.01,-712.92 776.09,-729.12 782.54,-736.99 786.01,-755.67 809.24,-880.95 827.2,-911.76 888.82,-1023.29 896.35,-1036.92 905.59,-1050.78 914.94,-1063.6"/>
+<path fill="none" stroke="black" d="M904.42,-635.75C863.64,-647.97 811.63,-671.06 786.01,-712.92 776.09,-729.12 782.54,-736.99 786.01,-755.67 809.24,-880.95 827.2,-911.76 888.82,-1023.29 896.35,-1036.92 905.59,-1050.78 914.94,-1063.6"/>
 <polygon fill="black" stroke="black" points="912.05,-1065.58 920.83,-1071.51 917.66,-1061.4 912.05,-1065.58"/>
 <text xml:space="preserve" text-anchor="middle" x="804.32" y="-744.27" font-family="Arial" font-size="12.00">(16) Lease DB</text>
 <text xml:space="preserve" text-anchor="middle" x="804.32" y="-730.02" font-family="Arial" font-size="12.00">creds + gateway</text>

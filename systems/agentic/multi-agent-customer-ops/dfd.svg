@@ -48,14 +48,15 @@
 <!-- datastore_CaseMemory_96ac87fabf -->
 <g id="node8" class="node">
 <title>datastore_CaseMemory_96ac87fabf</title>
-<image xlink:href="/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pytm/images/datastore_black.png" width="49.6px" height="36px" preserveAspectRatio="xMinYMin meet" x="380.242" y="-936"/>
-<text xml:space="preserve" text-anchor="middle" x="389.29" y="-886.7" font-family="Arial" font-size="14.00">Case Memory</text>
+<path fill="none" stroke="black" d="M455.79,-932.73C455.79,-934.53 433.04,-936 405.04,-936 377.04,-936 354.29,-934.53 354.29,-932.73 354.29,-932.73 354.29,-903.27 354.29,-903.27 354.29,-901.47 377.04,-900 405.04,-900 433.04,-900 455.79,-901.47 455.79,-903.27 455.79,-903.27 455.79,-932.73 455.79,-932.73"/>
+<path fill="none" stroke="black" d="M455.79,-932.73C455.79,-930.92 433.04,-929.45 405.04,-929.45 377.04,-929.45 354.29,-930.92 354.29,-932.73"/>
+<text xml:space="preserve" text-anchor="middle" x="405.04" y="-912.58" font-family="Arial" font-size="14.00">Case Memory</text>
 </g>
 <!-- server_IntakeAgent_86e4604564&#45;&gt;datastore_CaseMemory_96ac87fabf -->
 <g id="edge3" class="edge">
 <title>server_IntakeAgent_86e4604564&#45;&gt;datastore_CaseMemory_96ac87fabf</title>
-<path fill="none" stroke="black" d="M84.99,-1174.35C85.12,-1033.24 93.84,-608.45 192.59,-523.75 227,-494.24 261.11,-493.19 294.59,-523.75 352.32,-576.44 284.24,-808.31 326.59,-874 338,-891.7 359.19,-903.02 376.52,-909.74"/>
-<polygon fill="black" stroke="black" points="375.19,-912.98 385.79,-913.01 377.52,-906.38 375.19,-912.98"/>
+<path fill="none" stroke="black" d="M84.99,-1174.35C85.12,-1033.24 93.84,-608.45 192.59,-523.75 227,-494.24 261.11,-493.19 294.59,-523.75 352.32,-576.44 284.24,-808.31 326.59,-874 331.95,-882.31 339.46,-889.21 347.72,-894.9"/>
+<polygon fill="black" stroke="black" points="345.65,-897.73 355.99,-900.01 349.33,-891.77 345.65,-897.73"/>
 <text xml:space="preserve" text-anchor="middle" x="243.59" y="-526.6" font-family="Arial" font-size="12.00">(3) Create case</text>
 </g>
 <!-- server_OrchestratorAgent_b2e5892d06 -->
@@ -207,8 +208,8 @@
 <!-- datastore_CaseMemory_96ac87fabf&#45;&gt;server_OrchestratorAgent_b2e5892d06 -->
 <g id="edge4" class="edge">
 <title>datastore_CaseMemory_96ac87fabf&#45;&gt;server_OrchestratorAgent_b2e5892d06</title>
-<path fill="none" stroke="black" d="M376.13,-925.81C329.72,-940.36 237.35,-976.29 192.59,-1042.25 127.01,-1138.91 194.13,-1192.83 152.59,-1302 147.38,-1315.69 140.18,-1329.47 132.41,-1342.3"/>
-<polygon fill="none" stroke="black" points="377.13,-929.16 385.7,-922.92 375.11,-922.46 377.13,-929.16"/>
+<path fill="none" stroke="black" d="M343.44,-937.2C294.6,-955.97 228.38,-989.51 192.59,-1042.25 127.01,-1138.91 194.13,-1192.83 152.59,-1302 147.38,-1315.69 140.18,-1329.47 132.41,-1342.3"/>
+<polygon fill="none" stroke="black" points="344.63,-940.49 352.78,-933.73 342.19,-933.93 344.63,-940.49"/>
 <polygon fill="black" stroke="black" points="129.53,-1340.31 127.19,-1350.64 135.46,-1344.02 129.53,-1340.31"/>
 <text xml:space="preserve" text-anchor="middle" x="243.59" y="-1073.6" font-family="Arial" font-size="12.00">(4) Load case</text>
 <text xml:space="preserve" text-anchor="middle" x="243.59" y="-1059.35" font-family="Arial" font-size="12.00">(15) Append plan +</text>
