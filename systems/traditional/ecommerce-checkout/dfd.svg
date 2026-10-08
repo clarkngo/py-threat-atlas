@@ -11,12 +11,12 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-1375 874.43,-1375 874.43,4 -4,4"/>
 <g id="clust1" class="cluster">
 <title>cluster_boundary_CommerceVPC_d2006ce1bb</title>
-<polygon fill="none" stroke="#ee2c2c" stroke-dasharray="5,2" points="8,-715 8,-1125 816.91,-1125 816.91,-715 8,-715"/>
-<text xml:space="preserve" text-anchor="start" x="376.45" y="-1112.5" font-family="Arial" font-style="italic" font-size="10.00">Commerce VPC</text>
+<polygon fill="none" stroke="#ee2c2c" stroke-dasharray="5,2" points="8,-715 8,-1125 839.53,-1125 839.53,-715 8,-715"/>
+<text xml:space="preserve" text-anchor="start" x="387.77" y="-1112.5" font-family="Arial" font-style="italic" font-size="10.00">Commerce VPC</text>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_boundary_DataTier_f8af758679</title>
-<polygon fill="none" stroke="#ee2c2c" stroke-dasharray="5,2" points="738.91,-1025 738.91,-1097 808.91,-1097 808.91,-1025 738.91,-1025"/>
+<polygon fill="none" stroke="#ee2c2c" stroke-dasharray="5,2" points="716.28,-1007 716.28,-1097 831.53,-1097 831.53,-1007 716.28,-1007"/>
 <text xml:space="preserve" text-anchor="start" x="753.66" y="-1084.5" font-family="Arial" font-style="italic" font-size="10.00">Data Tier</text>
 </g>
 <g id="clust3" class="cluster">
@@ -47,9 +47,10 @@
 <!-- datastore_OrdersDBPostgreSQL_96ac87fabf -->
 <g id="node1" class="node">
 <title>datastore_OrdersDBPostgreSQL_96ac87fabf</title>
-<image xlink:href="/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pytm/images/datastore_black.png" width="49.6px" height="36px" preserveAspectRatio="xMinYMin meet" x="749.106" y="-1069"/>
-<text xml:space="preserve" text-anchor="middle" x="705.28" y="-1019.7" font-family="Arial" font-size="14.00">Orders DB</text>
-<text xml:space="preserve" text-anchor="middle" x="705.28" y="-1003.95" font-family="Arial" font-size="14.00">(PostgreSQL)</text>
+<path fill="none" stroke="black" d="M823.53,-1064.22C823.53,-1066.94 801.29,-1069.16 773.91,-1069.16 746.52,-1069.16 724.28,-1066.94 724.28,-1064.22 724.28,-1064.22 724.28,-1019.78 724.28,-1019.78 724.28,-1017.06 746.52,-1014.84 773.91,-1014.84 801.29,-1014.84 823.53,-1017.06 823.53,-1019.78 823.53,-1019.78 823.53,-1064.22 823.53,-1064.22"/>
+<path fill="none" stroke="black" d="M823.53,-1064.22C823.53,-1061.49 801.29,-1059.28 773.91,-1059.28 746.52,-1059.28 724.28,-1061.49 724.28,-1064.22"/>
+<text xml:space="preserve" text-anchor="middle" x="773.91" y="-1044.45" font-family="Arial" font-size="14.00">Orders DB</text>
+<text xml:space="preserve" text-anchor="middle" x="773.91" y="-1028.7" font-family="Arial" font-size="14.00">(PostgreSQL)</text>
 </g>
 <!-- server_StorefrontSSRwebapp_9df04f8dae -->
 <g id="node2" class="node">
@@ -75,10 +76,10 @@
 <!-- server_OrderPricingService_65d0d57a00&#45;&gt;datastore_OrdersDBPostgreSQL_96ac87fabf -->
 <g id="edge11" class="edge">
 <title>server_OrderPricingService_65d0d57a00&#45;&gt;datastore_OrdersDBPostgreSQL_96ac87fabf</title>
-<path fill="none" stroke="black" d="M470.78,-832.9C492.15,-849.63 517.16,-868.94 540.13,-886 614.1,-940.94 703.47,-1003.15 746.81,-1033.06"/>
-<polygon fill="black" stroke="black" points="744.6,-1035.79 754.82,-1038.59 748.58,-1030.03 744.6,-1035.79"/>
-<text xml:space="preserve" text-anchor="middle" x="596.76" y="-980.94" font-family="Arial" font-size="12.00">(11) Persist order</text>
-<text xml:space="preserve" text-anchor="middle" x="596.76" y="-966.69" font-family="Arial" font-size="12.00">(PENDING)</text>
+<path fill="none" stroke="black" d="M470.56,-833.21C491.89,-849.99 516.94,-869.24 540.13,-886 601.74,-930.51 674.85,-978.8 722.47,-1009.67"/>
+<polygon fill="black" stroke="black" points="720.38,-1012.48 730.67,-1014.97 724.18,-1006.6 720.38,-1012.48"/>
+<text xml:space="preserve" text-anchor="middle" x="596.76" y="-977.34" font-family="Arial" font-size="12.00">(11) Persist order</text>
+<text xml:space="preserve" text-anchor="middle" x="596.76" y="-963.09" font-family="Arial" font-size="12.00">(PENDING)</text>
 </g>
 <!-- externalentity_PaymentProviderhostedfieldsAPI_9345ab4c19 -->
 <g id="node10" class="node">
@@ -121,10 +122,10 @@
 <!-- server_PaymentWebhookReceiver_a22abb380b&#45;&gt;datastore_OrdersDBPostgreSQL_96ac87fabf -->
 <g id="edge10" class="edge">
 <title>server_PaymentWebhookReceiver_a22abb380b&#45;&gt;datastore_OrdersDBPostgreSQL_96ac87fabf</title>
-<path fill="none" stroke="black" d="M499.83,-1022.54C578.3,-1030.71 692.31,-1042.6 744.68,-1048.06"/>
-<polygon fill="black" stroke="black" points="744.22,-1051.53 754.53,-1049.08 744.95,-1044.57 744.22,-1051.53"/>
-<text xml:space="preserve" text-anchor="middle" x="596.76" y="-1055.08" font-family="Arial" font-size="12.00">(10) Mark order</text>
-<text xml:space="preserve" text-anchor="middle" x="596.76" y="-1040.83" font-family="Arial" font-size="12.00">PAID</text>
+<path fill="none" stroke="black" d="M500.28,-1020.49C565.17,-1025.61 654.17,-1032.63 712.57,-1037.24"/>
+<polygon fill="black" stroke="black" points="712.08,-1040.71 722.32,-1038.01 712.63,-1033.73 712.08,-1040.71"/>
+<text xml:space="preserve" text-anchor="middle" x="596.76" y="-1049.24" font-family="Arial" font-size="12.00">(10) Mark order</text>
+<text xml:space="preserve" text-anchor="middle" x="596.76" y="-1034.99" font-family="Arial" font-size="12.00">PAID</text>
 </g>
 <!-- actor_BackofficeOperator_c76a0a7067 -->
 <g id="node5" class="node">
@@ -150,16 +151,16 @@
 <!-- server_BackofficePortal_4c7b12dcc9&#45;&gt;datastore_OrdersDBPostgreSQL_96ac87fabf -->
 <g id="edge14" class="edge">
 <title>server_BackofficePortal_4c7b12dcc9&#45;&gt;datastore_OrdersDBPostgreSQL_96ac87fabf</title>
-<path fill="none" stroke="black" d="M480.61,-1275.59C531.11,-1275.5 601.92,-1268.37 653.38,-1235 707.33,-1200.01 742.1,-1131.16 759.53,-1088.32"/>
-<polygon fill="black" stroke="black" points="762.73,-1089.76 763.13,-1079.17 756.21,-1087.19 762.73,-1089.76"/>
-<text xml:space="preserve" text-anchor="middle" x="596.76" y="-1288.53" font-family="Arial" font-size="12.00">(14) Read / update</text>
-<text xml:space="preserve" text-anchor="middle" x="596.76" y="-1274.28" font-family="Arial" font-size="12.00">orders</text>
+<path fill="none" stroke="black" d="M480.81,-1275.88C531.41,-1275.97 602.28,-1268.93 653.38,-1235 709.23,-1197.92 743.63,-1124.92 760.43,-1080.09"/>
+<polygon fill="black" stroke="black" points="763.69,-1081.36 763.8,-1070.77 757.11,-1078.98 763.69,-1081.36"/>
+<text xml:space="preserve" text-anchor="middle" x="596.76" y="-1288.95" font-family="Arial" font-size="12.00">(14) Read / update</text>
+<text xml:space="preserve" text-anchor="middle" x="596.76" y="-1274.7" font-family="Arial" font-size="12.00">orders</text>
 </g>
 <!-- server_BackofficePortal_4c7b12dcc9&#45;&gt;externalentity_PaymentProviderhostedfieldsAPI_9345ab4c19 -->
 <g id="edge15" class="edge">
 <title>server_BackofficePortal_4c7b12dcc9&#45;&gt;externalentity_PaymentProviderhostedfieldsAPI_9345ab4c19</title>
-<path fill="none" stroke="black" d="M469.11,-1235.1C490.66,-1220.06 516.25,-1202.87 540.13,-1188.5 588.85,-1159.19 618.53,-1173.93 653.38,-1129 660.18,-1120.24 727.27,-826.02 757.85,-690.79"/>
-<polygon fill="black" stroke="black" points="761.22,-691.77 760.01,-681.24 754.39,-690.23 761.22,-691.77"/>
+<path fill="none" stroke="black" d="M469.11,-1235.1C490.66,-1220.06 516.25,-1202.87 540.13,-1188.5 588.85,-1159.19 618.71,-1174.06 653.38,-1129 692.31,-1078.42 670.83,-1051.15 685.38,-989 709.79,-884.75 738.93,-763.95 756.66,-690.8"/>
+<polygon fill="black" stroke="black" points="759.99,-691.93 758.94,-681.39 753.19,-690.28 759.99,-691.93"/>
 <text xml:space="preserve" text-anchor="middle" x="596.76" y="-1205.6" font-family="Arial" font-size="12.00">(15) Refund via</text>
 <text xml:space="preserve" text-anchor="middle" x="596.76" y="-1191.35" font-family="Arial" font-size="12.00">provider API</text>
 </g>

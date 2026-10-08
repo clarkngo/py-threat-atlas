@@ -49,14 +49,15 @@
 <!-- datastore_InvoiceArchive_990b886585 -->
 <g id="node2" class="node">
 <title>datastore_InvoiceArchive_990b886585</title>
-<image xlink:href="/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pytm/images/datastore_black.png" width="49.6px" height="36px" preserveAspectRatio="xMinYMin meet" x="923.725" y="-560"/>
-<text xml:space="preserve" text-anchor="middle" x="876.15" y="-510.7" font-family="Arial" font-size="14.00">Invoice Archive</text>
+<path fill="none" stroke="black" d="M1001.9,-556.73C1001.9,-558.53 977.98,-560 948.53,-560 919.07,-560 895.15,-558.53 895.15,-556.73 895.15,-556.73 895.15,-527.27 895.15,-527.27 895.15,-525.47 919.07,-524 948.53,-524 977.98,-524 1001.9,-525.47 1001.9,-527.27 1001.9,-527.27 1001.9,-556.73 1001.9,-556.73"/>
+<path fill="none" stroke="black" d="M1001.9,-556.73C1001.9,-554.92 977.98,-553.45 948.53,-553.45 919.07,-553.45 895.15,-554.92 895.15,-556.73"/>
+<text xml:space="preserve" text-anchor="middle" x="948.53" y="-536.58" font-family="Arial" font-size="14.00">Invoice Archive</text>
 </g>
 <!-- server_IntakeService_b2e5892d06&#45;&gt;datastore_InvoiceArchive_990b886585 -->
 <g id="edge3" class="edge">
 <title>server_IntakeService_b2e5892d06&#45;&gt;datastore_InvoiceArchive_990b886585</title>
-<path fill="none" stroke="black" d="M666.74,-712.1C710.07,-691.02 776.25,-657.5 831.18,-624 833.51,-622.58 887.97,-584.11 921.55,-560.37"/>
-<polygon fill="black" stroke="black" points="923.43,-563.33 929.57,-554.7 919.39,-557.61 923.43,-563.33"/>
+<path fill="none" stroke="black" d="M666.74,-712.1C710.07,-691.02 776.25,-657.5 831.18,-624 833.31,-622.7 878.96,-590.47 912.44,-566.81"/>
+<polygon fill="black" stroke="black" points="914.13,-569.91 920.27,-561.28 910.09,-564.19 914.13,-569.91"/>
 <text xml:space="preserve" text-anchor="middle" x="786.18" y="-689.11" font-family="Arial" font-size="12.00">(3) Store</text>
 <text xml:space="preserve" text-anchor="middle" x="786.18" y="-674.86" font-family="Arial" font-size="12.00">sanitized PDF</text>
 </g>
